@@ -1,0 +1,56 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+#info-left {
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+}
+#info-right {
+    width: 49%;
+    float: right;
+}
+.submit-booking input{
+	background-color: #019d3c !important;
+    margin-left: 80px;
+}
+.icon-check{
+	color: #ff8b11;
+}
+.footer-wrapper .footer-widgets.footer.footer-1{
+	color: #fff;
+}
+.footer-wrapper .footer-widgets.footer.footer-1 .is-divider.small{
+	background: #fff;
+	margin: 0.6em 0 0 0 !important;
+}
+.contact-footer a{
+	color: #fff;
+}
+#recent-posts-3.widget.widget_recent_entries ul li a{
+	color: #fff;
+}
+#recent-posts-3.widget.widget_recent_entries ul li{
+	border: none;
+}
+.footer-widgets.footer.footer-1 #wp_statsmechanic-5.widget_wp_statsmechanic #mvcwid{
+	position: absolute;
+    top: -26px;
+    left: 0;
+    right: 0;
+}
+#wp_statsmechanic-5.widget.widget_wp_statsmechanic #mvctable td{
+	border: none;
+}
+@media only screen and (max-width: 320px) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+.submit-booking input{
+	margin: 0 33px;
+}
+}
